@@ -29,6 +29,10 @@
             width: 80%;
             margin: 0 auto;
         }
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
         .cta {
             background-color: #ff6347;
             color: white;
@@ -82,22 +86,8 @@
 <div class="container">
     <section>
         <h2>O que é o Koala Dormilón?</h2>
-        <p>O Koala Dormilón é um produto natural desenvolvido para ajudar no alívio de estresse, ansiedade e insônia em crianças. Com ingredientes 100% naturais e seguros, ele proporciona um sono tranquilo e reparador, sem efeitos colaterais.</p>
-    </section>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/600x300" alt="Koala Dormilón" width="100%" height="auto">
+        </div>
+        <p>O Koala Dormilón é um produto natural desenvolvido para ajudar no alívio de estresse, ansiedade e insônia em crianças. Com ingredientes 100% naturais e seguros, ele proporciona um sono tranquilo e reparador, sem efeitos colaterai
 
-    <section class="cta">
-        <h2>Experimente o Koala Dormilón Hoje!</h2>
-        <p>Receba um desconto exclusivo em sua primeira compra. Insira seu e-mail abaixo para mais informações.</p>
-        <form action="#" method="POST">
-            <input type="email" placeholder="Digite seu e-mail" required>
-            <button type="submit">Receber Desconto</button>
-        </form>
-    </section>
-</div>
-
-<footer>
-    <p>&copy; 2025 Koala Dormilón. Todos os direitos reservados.</p>
-</footer>
-
-</body>
-</html>
